@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 900;
+  color: tan;
+  margin-left: 27rem;
+  margin-top: -35rem;
+  text-shadow: 1px 2px 2px black;
+}
+
+.container {
+  position: absolute;
+  margin-top: -26rem;
+  margin-left: 13rem;
+  width: 60%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.key {
+  width: 50px;
+  height: 70px;
+  border: 5px solid tan;
+  background-color: rgba(255, 255, 255, 0.176);
+  margin: 1rem;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.442);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.442);
+  -webkit-transition: all 0.07s;
+  transition: all 0.07s;
+}
+
+.playing {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-color: #f5f3f0;
+  -webkit-box-shadow: 0 0 10px tan;
+          box-shadow: 0 0 10px tan;
+}
+
+kbd {
+  color: #e7823f;
+  font-size: 1rem;
+  font-weight: 900;
+  display: block;
+  margin-top: 0.2rem;
+  text-shadow: 1px 2px 2px black;
+}
+
+span {
+  color: white;
+  font-size: 0.5rem;
+  text-shadow: 1px 2px 2px black;
+}
